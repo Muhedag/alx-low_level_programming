@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints a size of various computer types
- * Return 0 (Success)
+ * Description: To print the character length
+ * Return: 0 (Success)
  */
 int main(void)
 {
