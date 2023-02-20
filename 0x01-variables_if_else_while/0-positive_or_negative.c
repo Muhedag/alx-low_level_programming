@@ -1,25 +1,20 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
 /**
  * main - Entry program
- * Description: It identifies numbers 
- * Return: 0 
+ * Description : It identifies number
+ * Return : 0
  */
 int main(void)
-{
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n > 0)
-		printf("%d is positibe\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else
-		printf("%d is negative\n", n);
-	return (0);
+{int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+printf("%d is positibe\n", n);
+else if (n == 0)
+printf("%d is zero\n", n);
+else
+printf("%d is negative\n", n);
+return (0);
 }
