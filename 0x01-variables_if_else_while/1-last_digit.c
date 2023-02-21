@@ -1,14 +1,22 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/**
+ * main - Entry program
+ * Description: print last digit that greater than 5 or less than 6 or 0
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	if ((n % 10) > 5)
+	{printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
+	}
+	else
+	{printf("Last digit of %d is %d and is 0\n", n, n % 10);
+	}
 	return (0);
 }
