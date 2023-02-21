@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  * main - Entry program
- * Description : It identifies number
- * Return : 0
+ * Description: It identifies number
+ * Return: 0 (success)
  */
 int main(void)
 {int n;
