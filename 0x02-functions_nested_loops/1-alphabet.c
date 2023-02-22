@@ -1,7 +1,7 @@
 #include "main.h"
+
 /**
- * main - Entry
- * Description: Alphabet print
+ * print_alphabet - this is fn for print letters
  * Return: void
  */
 void print_alphabet(void)
