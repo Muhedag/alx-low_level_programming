@@ -2,7 +2,6 @@
 
 /**
  *jack_bauer - prints every minute.
- *@a: The character checked
  * Return: value of last digit
  */
 void jack_bauer(void)
